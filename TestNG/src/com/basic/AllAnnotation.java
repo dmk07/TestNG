@@ -2,18 +2,21 @@ package com.basic;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.testng.annotations.AfterClass;
 
-public class BeforeClass {
+public class AllAnnotation {
 
 	@Test
 	public void testcase()
 	{
 		System.out.print("Test cae");
 	}
+	
+	
 	
 	@AfterClass
 	public void m3()
