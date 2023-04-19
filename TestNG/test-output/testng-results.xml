@@ -2,16 +2,36 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-19T00:52:41 IST" name="Default suite" finished-at="2023-04-19T00:52:47 IST" duration-ms="5329">
+  <suite started-at="2023-04-19T10:03:04 IST" name="Default suite" finished-at="2023-04-19T10:03:04 IST" duration-ms="154">
     <groups>
     </groups>
-    <test started-at="2023-04-19T00:52:41 IST" name="Default test" finished-at="2023-04-19T00:52:47 IST" duration-ms="5329">
-      <class name="com.basic.FirstScript">
-        <test-method signature="hello()[pri:0, instance:com.basic.FirstScript@6124287a]" started-at="2023-04-19T00:52:42 IST" name="hello" finished-at="2023-04-19T00:52:47 IST" duration-ms="5225" status="PASS">
+    <test started-at="2023-04-19T10:03:04 IST" name="Default test" finished-at="2023-04-19T10:03:04 IST" duration-ms="154">
+      <class name="com.basic.BeforeClass">
+        <test-method is-config="true" signature="bt()[pri:0, instance:com.basic.BeforeClass@368247b9]" started-at="2023-04-19T10:03:04 IST" name="bt" finished-at="2023-04-19T10:03:04 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bt -->
+        <test-method is-config="true" signature="hello()[pri:0, instance:com.basic.BeforeClass@368247b9]" started-at="2023-04-19T10:03:04 IST" name="hello" finished-at="2023-04-19T10:03:04 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hello -->
-      </class> <!-- com.basic.FirstScript -->
+        <test-method signature="testcase()[pri:0, instance:com.basic.BeforeClass@368247b9]" started-at="2023-04-19T10:03:04 IST" name="testcase" finished-at="2023-04-19T10:03:04 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method is-config="true" signature="m1()[pri:0, instance:com.basic.BeforeClass@368247b9]" started-at="2023-04-19T10:03:04 IST" name="m1" finished-at="2023-04-19T10:03:04 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method is-config="true" signature="m3()[pri:0, instance:com.basic.BeforeClass@368247b9]" started-at="2023-04-19T10:03:04 IST" name="m3" finished-at="2023-04-19T10:03:04 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m3 -->
+        <test-method is-config="true" signature="m2()[pri:0, instance:com.basic.BeforeClass@368247b9]" started-at="2023-04-19T10:03:04 IST" name="m2" finished-at="2023-04-19T10:03:04 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+      </class> <!-- com.basic.BeforeClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
