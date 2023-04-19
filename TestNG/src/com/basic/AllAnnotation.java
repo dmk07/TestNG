@@ -10,42 +10,47 @@ import org.testng.annotations.AfterClass;
 
 public class AllAnnotation {
 
-	@Test
-	public void testcase()
+	@BeforeClass
+	public void beforeClass()	
 	{
-		System.out.print("Test cae");
+		System.out.println("before class");
 	}
-	
-	
-	
-	@AfterClass
-	public void m3()
-	{
-		System.out.print("Test cae");
-	}
-
 	
 	@BeforeMethod
-	public void hello()
+	public void beforeMethod()	
 	{
-		System.out.print("hello");
+		System.out.println("before method");
+	}
+	
+	@BeforeTest
+	public void BeforeTest()	
+	{
+		System.out.println("before Test");
+	}
+	@Test
+	public void Test()	
+	{
+		System.out.println("Test");
+	}
+	
+	@AfterClass
+	public void afterClass()	
+	{
+		System.out.println("after class");
+	}
+	
+	@AfterTest
+	public void afterTest()	
+	{
+		System.out.println("after Test");
 	}
 	
 	@AfterMethod
-	public void m1()
+	public void afterMethod()	
 	{
-		System.out.print("Test cae");
+		System.out.println("after method");
 	}
-
-	@BeforeTest
-	public void bt()
-	{
-		System.out.print("Test cae");
-	}
-	@AfterTest
-	public void m2()
-	{
-		System.out.print("Test cae");
-	}
+	
+	
 
 }
