@@ -13,7 +13,7 @@ public class AllAnnotation {
 	@BeforeClass
 	public void beforeClass()	
 	{
-		System.out.println("before class");
+		System.out.println("before class");//
 	}
 	
 	@BeforeMethod
